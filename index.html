@@ -1,10 +1,18 @@
 <html>
   <head>
     <link rel="stylesheet" href="static/css/app.css">
-    <script></script>
+    <script>
+      var progress;
+      window.onload = function(){
+        progress = document.findElementById("progress");
+        progress.width = 20;
+      };
+    </script>
   </head>
   <body>
-    <h1></h1>
+    <div class="progress">
+      <span id="progress"></span>
+    </div>
     <div class="center">
     <form>
       <div>
