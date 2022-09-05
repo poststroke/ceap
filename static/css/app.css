@@ -4,3 +4,9 @@
   top: 30%;
   margin-left: -100px;
 }
+.center div {
+  width: 200px;
+}
+.center input {
+  width: 100%;
+}
