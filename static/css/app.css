@@ -1,12 +1,14 @@
 .center{
   position: absolute;
+  padding: 0;
+  border: 0;
   left: 50%;
   top: 30%;
-  margin-left: -100px;
-}
-.center div {
-  width: 200px;
+  margin-left: -20em;
 }
 .center input {
-  width: 100%;
+  width: 10em;
+  font-size: 4em;
+  padding: .2em;
+  margin: .1em;
 }
