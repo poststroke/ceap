@@ -1,14 +1,26 @@
-.center{
+.center {
   position: absolute;
-  padding: 0;
-  border: 0;
   left: 50%;
   top: 30%;
-  margin-left: -20em;
+  margin-left: -20rem;
 }
 .center input {
-  width: 10em;
-  font-size: 4em;
+  width: 40rem;
+  font-size: 4rem;
   padding: .2em;
   margin: .1em;
+  border: 0;
+}
+body {
+  background: bisque;
+}
+form {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+div {
+  margin: 0;
+  border: 0;
+  padding: 0;
 }
